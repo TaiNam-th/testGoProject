@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"testGoProject/controllers"
+)
 
 func main() {
 	fmt.Println("Hello, Go World!")
@@ -8,4 +11,8 @@ func main() {
 	fmt.Print("Enter your name: ")
 	fmt.Scanln(&name)
 	fmt.Println("Hello, ", name)
+
+	//Area Calculation
+	fmt.Println("Area Calculation")
+	controllers.CalculateandDisplayArea()
 }
