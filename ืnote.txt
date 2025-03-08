@@ -1,0 +1,10 @@
+Install dlv:
+go install github.com/go-delve/delve/cmd/dlv@latest
+
+command :
+dlv version
+
+Create launch.json
+Copy from ./.vscode/launch.json
+
+Every Project if need debug.
